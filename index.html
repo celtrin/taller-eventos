@@ -3,14 +3,25 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
+        <title>Taller: Aprendiendo sobre eventos</title>
     </head>
     <body>
-        <button onclick="saludo()">Saludar</button>
-        <script>
+        <div id="eldivboton">
+            <button onclick="saludo()">Saludar</button>
+            <script>
             function saludo() {
                 alert("Hola!");
             }
-        </script>
+            </script>
+        </div>
+
+        <style>
+            #eldivboton {
+                padding: 5px;
+                background-color: green;
+            }
+        </style>
+
+        <script src="eventos.js"></script>
     </body>
 </html>
