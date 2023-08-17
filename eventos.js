@@ -1,6 +1,6 @@
 function saludo(event) {
   alert("Hola!");
-  event.stopPropagation(); // Evita que el evento se propague hacia arriba en el árbol DOM
+  event.stopPropagation(); // Evita que el evento se propague hacia arriba en el DOM
 }
 
 document.addEventListener("DOMContentLoaded", function(){
